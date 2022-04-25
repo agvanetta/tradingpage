@@ -8,6 +8,11 @@
     width: 80%;
 }
 
+.banner__image__mid{
+    height: 35vh;
+}
+
+
 .bannermid__text p{
     font-weight: 100;
     line-height : 45px;

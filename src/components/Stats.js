@@ -3,7 +3,7 @@ import "./Stats.css"
 import axios from 'axios';
 import StatsRow from './StatsRow';
 
-const TOKEN = "c9id9paad3i9bpe2for0";
+const TOKEN = "c9jfegiad3idg7p5a1gg";
 const BASE_URL = "https://finnhub.io/api/v1/quote";
 
 function Stats() {

@@ -6,7 +6,7 @@ function Bannermid() {
     <div className='bannermid'>
         <div>
             <img
-            className="banner__image"
+            className="banner__image__mid"
             src="https://www.larepublica.com/wp-content/uploads/2021/02/Robinhood.png"
             alt=""
             />

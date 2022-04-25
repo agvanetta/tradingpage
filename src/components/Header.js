@@ -17,11 +17,11 @@ function Header() {
         </div>
         {/*menuitems*/}
         <div className='header__menuItems'>
-            <a href='a'>Free stocks</a>
-            <a href='a'>Portfolio</a>
-            <a href='a'>Cash</a>
-            <a href='a'>Messages</a>
-            <a href='a'>Account</a>
+            <a href='tradingpage'>Free stocks</a>
+            <a href='tradingpage'>Portfolio</a>
+            <a href='tradingpage'>Cash</a>
+            <a href='tradingpage'>Messages</a>
+            <a href='tradingpage'>Account</a>
         </div>
     </div>
   )

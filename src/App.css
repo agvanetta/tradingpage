@@ -15,7 +15,17 @@ body{
 
 .app__bannermid{
   display: flex;
-  justify-content: center
+  justify-content: center;
+}
+
+.app__movements{
+  display: flex;
+  justify-content: center;
+}
+
+.app__moreinfo{
+  display: flex;
+  justify-content: center;
 }
 
 .app__body{
