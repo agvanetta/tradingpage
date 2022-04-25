@@ -1,0 +1,18 @@
+.bannermid{
+    background-color: #00c805;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.bannermid__text p{
+    font-weight: 100;
+    line-height : 45px;
+    font-size: 45px;
+    color: white;
+    width: 200px;
+    text-align: start;
+}

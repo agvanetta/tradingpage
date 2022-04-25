@@ -4,11 +4,12 @@
     justify-content: space-between;
     height: 64px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
     position: fixed;
     top: 0;
     background-color: #121213;
     width: 100%;
+    border-bottom: 1px solid white;
 }
 
 .header__logo{
@@ -24,7 +25,7 @@
 
 .header_searchContainer{
     height: 20px;
-    border: 1px solid #31363A;
+    border: 1px solid #5c6165;
     border-radius: 4px;
     width: 375px;
 }

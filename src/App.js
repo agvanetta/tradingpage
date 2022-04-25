@@ -1,4 +1,6 @@
 import './App.css';
+import Bannermid from './components/Bannermid';
+import Bannertop from './components/Bannertop';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Holdings from './components/Holdings';
@@ -8,6 +10,8 @@ import Stats from './components/Stats';
 function App() {
   return (
     <div className="App">
+        <Bannertop/>
+
       {/*header*/}
       <div className='app__header'>
         <Header/>
@@ -19,6 +23,9 @@ function App() {
           <Stats/>
         </div>
       </div>
+      <div className="app__bannermid">
+      <Bannermid/>
+      </div >
       {/*body*/}
       <Holdings/>
        {/*footer*/}

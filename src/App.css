@@ -9,8 +9,13 @@
 
 body{
   background: #121213;
-  margin-top: 90px;
+  margin-top:30px;
   
+}
+
+.app__bannermid{
+  display: flex;
+  justify-content: center
 }
 
 .app__body{
