@@ -7,7 +7,7 @@ function Holdings() {
         <div className='holdings__container' >
                 <iframe width="100%" frameBorder="0"
                         height="100%" 
-                        src="https://widget.finnhub.io/widgets/etf-holdings?symbol=ARKK&theme=dark" title="ARKK Holdings Data by Finnhub Stock API">
+                        src="https://widget.finnhub.io/widgets/etf-holdings?symbol=SPY&theme=dark" title="SPY Holdings Data by Finnhub Stock API">
                 </iframe>
         </div>
     </div>

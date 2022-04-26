@@ -6,7 +6,7 @@ import Movdetails from "./Movdetails";
 function Movements() {
   return (
     <div className="movements">
-      <div className="movements__title">Latest money movements</div>
+      <div className="movements__title">Latest <span>money movements</span></div>
       <div className="movements__title2">Know the details of the operations that impact your available money.</div>
       <div className="movements__type">
         <div>Type</div>

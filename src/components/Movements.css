@@ -11,9 +11,15 @@
 }
 
 .movements__title{
-    color: #5AC53B;
+    font-size: 30px;
+    color: rgb(29, 185, 84);
     display: flex;
     padding: 15px 15px 5px 30px;
+}
+
+.movements__title span{
+    padding-left: 10px;
+    color:white;
 }
 
 .movements__title2{
