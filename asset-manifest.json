@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tradingpage/static/css/main.7210440d.css",
-    "main.js": "/tradingpage/static/js/main.12e0f41b.js",
+    "main.css": "/tradingpage/static/css/main.834a1d4f.css",
+    "main.js": "/tradingpage/static/js/main.a4718ea8.js",
     "static/js/787.044b70ab.chunk.js": "/tradingpage/static/js/787.044b70ab.chunk.js",
     "static/media/bannerbot.png": "/tradingpage/static/media/bannerbot.b66623edc9d1316a783b.png",
     "static/media/login_img.jpg": "/tradingpage/static/media/login_img.e4485de8634bb108afd2.jpg",
     "static/media/robinlogo.svg": "/tradingpage/static/media/robinlogo.d4c5626b6668d03b02ae8d6dacd6637d.svg",
     "static/media/stock.svg": "/tradingpage/static/media/stock.ef9ad21950556193f8e3e9fb02fc55a8.svg",
     "index.html": "/tradingpage/index.html",
-    "main.7210440d.css.map": "/tradingpage/static/css/main.7210440d.css.map",
-    "main.12e0f41b.js.map": "/tradingpage/static/js/main.12e0f41b.js.map",
+    "main.834a1d4f.css.map": "/tradingpage/static/css/main.834a1d4f.css.map",
+    "main.a4718ea8.js.map": "/tradingpage/static/js/main.a4718ea8.js.map",
     "787.044b70ab.chunk.js.map": "/tradingpage/static/js/787.044b70ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7210440d.css",
-    "static/js/main.12e0f41b.js"
+    "static/css/main.834a1d4f.css",
+    "static/js/main.a4718ea8.js"
   ]
 }
