@@ -43,6 +43,7 @@
 }
 
 .header__menuItems{
+    display: flex;
     margin: 0 48px;
 }
 
@@ -56,3 +57,20 @@
 .header__menuItems a:hover{
     color: #5AC53B;
 }
+
+/* Responsive 
+ 480px Maxima de celulares (600)
+ 481 - 768 tablet
+ 769-1200px Monitores*/ 
+ 
+ @media screen and (max-width: 768px) {
+    .header_searchContainer{
+        display: none;
+    }
+    .header__menuItems{
+        display: none;
+    }
+    .header__wrapper{
+        justify-content: center;
+    }
+ }

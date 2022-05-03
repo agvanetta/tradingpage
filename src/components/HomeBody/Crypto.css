@@ -30,3 +30,17 @@
     background-color: #212529;
 }
 
+/* Responsive 
+ 480px Maxima de celulares (600)
+ 481 - 768 tablet
+ 769-1200px Monitores*/ 
+ 
+ @media screen and (max-width: 768px) {
+    .crypto__title{
+        font-size: 20px;
+    }
+    .crypto__title2{
+        text-align: start;
+        padding-left: 17px;
+    }
+ }

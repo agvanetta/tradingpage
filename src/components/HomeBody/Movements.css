@@ -95,3 +95,23 @@
 
     text-align: start;
 }
+
+/* Responsive 
+ 480px Maxima de celulares (600)
+ 481 - 768 tablet
+ 769-1200px Monitores*/ 
+ 
+ @media screen and (max-width: 768px) {
+    .movements__currency{
+        display: none;
+    }
+    .status{
+        display: none;
+    }
+    .movements__title{
+        font-size: 20px;
+    }
+    .movements__title2{
+        padding: 5px 0px;
+    }
+ }

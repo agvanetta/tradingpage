@@ -7,7 +7,7 @@ function Bannermid() {
         <div>
             <img
             className="banner__image__mid"
-            src="https://www.larepublica.com/wp-content/uploads/2021/02/Robinhood.png"
+            src="https://www.criptotendencias.com/wp-content/uploads/2021/09/robinhood.jpg"
             alt=""
             />
         </div>

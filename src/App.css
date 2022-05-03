@@ -10,7 +10,6 @@
 body{
   background: #121213;
   margin-top:30px;
-  
 }
 
 .app__bannermid{
@@ -83,3 +82,17 @@ body{
     transform: rotate(360deg);
   }
 }
+
+ /* Responsive 
+ 480px Maxima de celulares (600)
+ 481 - 768 tablet
+ 769-1200px Monitores*/ 
+ 
+ @media screen and (max-width: 768px) {
+   .app__container{
+     flex-direction: column;
+   }
+   .app__body{
+     height: unset
+   }
+ }

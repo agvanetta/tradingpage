@@ -21,3 +21,21 @@
     width: 200px;
     text-align: start;
 }
+
+/* Responsive 
+ 480px Maxima de celulares (600)
+ 481 - 768 tablet
+ 769-1200px Monitores*/ 
+ 
+ @media screen and (max-width: 768px) {
+    .bannermid{
+        margin-top: 20px;
+    }
+    .banner__image__mid{
+        width: 100%;
+        height: 100px;
+    }
+    .bannermid__text{
+        display: none;
+    }
+ }

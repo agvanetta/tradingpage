@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Bannerbot.css"
-import Banner from '../img/bannerbot.png'
+import Banner from './bannerbot.png'
 
 function Bannerbot() {
   return (

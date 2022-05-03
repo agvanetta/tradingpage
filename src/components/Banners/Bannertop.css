@@ -45,3 +45,43 @@
     margin-left: -5px;
     border-radius: 3px;
 }
+
+/* Responsive 
+ 480px Maxima de celulares (600)
+ 481 - 768 tablet
+ 769-1200px Monitores*/ 
+ 
+ @media screen and (max-width: 768px) {
+     .banner__image{
+         display: none;
+     }
+    .bannertop{
+      padding-top: 80px;
+      margin-left: unset;
+      flex-direction: column;
+      height:unset;
+    }
+    .banner__text{
+        margin-left: 20px;
+        line-height: 45px;
+    }
+    .banner__text h1{
+        margin-left: 5px;
+
+    }
+    .banner__text h2{
+        line-height: 40px;
+        margin-left: unset;
+        width: 100%;
+        font-size: 30px;
+        padding: unset;
+    }
+    .banner__text div{
+        width: 80%;
+        margin-bottom: 80px;
+        text-align: start;
+        padding-left: 10px;
+        line-height: 25px;
+        
+    }
+  }

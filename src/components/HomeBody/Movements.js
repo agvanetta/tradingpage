@@ -11,9 +11,9 @@ function Movements() {
       <div className="movements__type">
         <div>Type</div>
         <div>Amount</div>
-        <div>Account</div>
-        <div>Status</div>
-        <div>Currency</div>
+        <div className='status'>Account</div>
+        <div className='status'>Status</div>
+        <div className='status'>Currency</div>
       </div>
       <Movdetails movement="Deposit" amount="$10.000,00" date="Yesterday"/>
       <Movdetails movement="Buy TSLA" amount="-$13.050,10" date="Tuesday"/>

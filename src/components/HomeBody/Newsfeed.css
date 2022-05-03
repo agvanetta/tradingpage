@@ -83,3 +83,16 @@
     width: 100%;
 }
 
+/* Responsive 
+ 480px Maxima de celulares (600)
+ 481 - 768 tablet
+ 769-1200px Monitores*/ 
+ 
+ @media screen and (max-width: 768px) {
+    .newsfeed{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+ }

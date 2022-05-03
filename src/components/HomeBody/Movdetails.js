@@ -15,7 +15,7 @@ export default class Mov__details extends Component {
           <div className="movements__money">{this.props.amount}</div>
           <div className="movements__day">{this.props.date}</div>
         </div>
-        <div>Processed</div>
+        <div className='status'>Processed</div>
         <div className='movements__currency'>USD</div>
         <div className="movements__currency">048218083452</div>
       </div>

@@ -1,6 +1,8 @@
 import React from 'react'
-import Logo from '../img/robinlogo.svg'
+import Logo from './robinlogo.svg'
 import "./Header.css"
+import { Link } from "react-router-dom";
+
 
 function Header() {
   return (
@@ -17,11 +19,25 @@ function Header() {
         </div>
         {/*menuitems*/}
         <div className='header__menuItems'>
-            <a href='tradingpage'>Free stocks</a>
-            <a href='tradingpage'>Portfolio</a>
-            <a href='tradingpage'>Cash</a>
-            <a href='tradingpage'>Messages</a>
-            <a href='tradingpage'>Account</a>
+            <Link to="/login" className="header__link">
+                <div className="header__option">
+                    <span className="header__optionTop">Login</span>
+                </div>
+            </Link>
+            <Link to="/" className="header__link">
+                <div className="header__option">
+                    <span className="header__optionTop">Trading</span>
+                </div>
+            </Link>
+            <Link to="/" className="header__link">
+                <div className="header__option">
+                    <span className="header__optionTop">Fundamentals</span>
+                </div>
+            </Link><Link to="/" className="header__link">
+                <div className="header__option">
+                    <span className="header__optionTop">Account</span>
+                </div>
+            </Link>
         </div>
     </div>
   )

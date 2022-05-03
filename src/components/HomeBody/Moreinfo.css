@@ -63,3 +63,18 @@
     color: rgb(5, 130, 48);
     transition: 0.5s;
 }
+
+@media screen and (max-width: 768px) {
+    .moreinfo__section{
+        padding: 10px 0 10px 10px;
+    }
+    .moreinfo__sections{
+        flex-direction: column;
+    }
+    .moreinfo__section1{
+        margin-left: unset;
+        width: 100%;
+        padding: 10px;
+    }
+    }
+ 
