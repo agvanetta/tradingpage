@@ -12,12 +12,16 @@
     flex-direction: column;
 }
 
+.newsfeed__details{
+    display: flex;
+}
 
 .newsfeed__portfolio{
     text-align: left;
 }
 
 .newsfeed__portfolio h1{
+    width:200px;
     margin: 0;
 }
 
@@ -81,6 +85,21 @@
 
 .newsfeed__chart{
     width: 100%;
+}
+
+#news__feed__svg{
+    margin: 13px 10px 10px 30px;
+    cursor: pointer;
+}
+
+#news__feed__svg:hover{
+    color: chartreuse;
+}
+
+.newsfeed__eye__button{
+    background-color: unset;
+    border: 0;
+    color: white;
 }
 
 /* Responsive 

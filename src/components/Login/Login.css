@@ -93,3 +93,27 @@
     background-color: #5AC53B;
     transition: .3s;
 }
+
+@media screen and (max-width: 768px) {
+    .login{
+        
+        flex-direction: column; 
+    }
+
+    .login__left{
+        height: unset;
+    }
+
+    .login__img{
+        display: none;
+    }
+
+    .login__right {
+        border-left: unset;
+        width: unset;
+    }
+
+    .login__title{
+        display: none;
+    }
+}

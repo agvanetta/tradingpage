@@ -19,21 +19,25 @@ function Header() {
         </div>
         {/*menuitems*/}
         <div className='header__menuItems'>
+             <Link to="/tradingpage" className="header__link">
+                <div className="header__option">
+                    <span className="header__optionTop">Home</span>
+                </div>
+            </Link>
+
             <Link to="/login" className="header__link">
                 <div className="header__option">
                     <span className="header__optionTop">Login</span>
                 </div>
             </Link>
-            <Link to="/" className="header__link">
+            
+            <Link to="/realtimechart" className="header__link">
                 <div className="header__option">
                     <span className="header__optionTop">Trading</span>
                 </div>
             </Link>
-            <Link to="/" className="header__link">
-                <div className="header__option">
-                    <span className="header__optionTop">Fundamentals</span>
-                </div>
-            </Link><Link to="/" className="header__link">
+            
+            <Link to="/account" className="header__link">
                 <div className="header__option">
                     <span className="header__optionTop">Account</span>
                 </div>

@@ -3,23 +3,36 @@ package com.example.RobinhoodBACK.Controller;
 import com.example.RobinhoodBACK.Entities.User;
 import com.example.RobinhoodBACK.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/users")
-public class userController {
+public class UserController {
+
+    @GetMapping("/test")
+    public String home(){
+        return "<h1>Welcome</h1>";
+    }
 
     @Autowired
     private UserService userService;
 
-    @PostMapping
+    @PostMapping("/register")
     public User save(@RequestBody User user){
         return userService.save(user);
     }
 
-    @GetMapping
+    @PutMapping("/update")
+    public ResponseEntity<?> update(@RequestBody User user) {
+        userService.update(user);
+        return ResponseEntity.ok(HttpStatus.OK);
+    }
+
+    @GetMapping("/lists")
     public List<User> findAll(){
         return userService.findAll();
     }
