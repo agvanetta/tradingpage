@@ -27,7 +27,7 @@ function Stats() {
       promises.push(
         getStocksData(stock)
         .then((res) => {
-          console.log(res)
+          // console.log(res)
           tempStocksData.push({
             name: stock,
             ...res.data
@@ -37,7 +37,7 @@ function Stats() {
     });
 
     Promise.all(promises).then(()=>{
-      console.log(tempStocksData);
+      // console.log(tempStocksData);
       setStocksData(tempStocksData);
     })
   }, []);

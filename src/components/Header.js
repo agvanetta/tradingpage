@@ -5,6 +5,12 @@ import { Link } from "react-router-dom";
 
 
 function Header() {
+
+    const handleLogout = () => {
+        localStorage.removeItem("jwt")
+           window.location.reload()
+    }
+
   return (
     <div className='header__wrapper'>
         {/*logo*/}
@@ -25,11 +31,7 @@ function Header() {
                 </div>
             </Link>
 
-            <Link to="/login" className="header__link">
-                <div className="header__option">
-                    <span className="header__optionTop">Login</span>
-                </div>
-            </Link>
+            
             
             <Link to="/realtimechart" className="header__link">
                 <div className="header__option">
@@ -40,6 +42,12 @@ function Header() {
             <Link to="/account" className="header__link">
                 <div className="header__option">
                     <span className="header__optionTop">Account</span>
+                </div>
+            </Link>
+
+            <Link to="/login" className="header__link">
+                <div className="header__option">
+                    <span className="header__optionTop" onClick={handleLogout}>Log out</span>
                 </div>
             </Link>
         </div>
